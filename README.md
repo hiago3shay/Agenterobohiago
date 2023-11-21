@@ -83,3 +83,5 @@ class AgenteRobo:
  
 agente = AgenteRobo()
 agente.limpar_quarto()
+
+print(f"Localização: {agente.localizacao}, Energia:{agente.energia}, Bolsa: {agente.bolsa}")
